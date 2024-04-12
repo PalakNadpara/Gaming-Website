@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: boxer-box;
+    line-height: 1.6;
+}
+
+body{
+    background-color: rgb(28, 28, 59);
+    color: gold;
+}
+
+.Score-Card{
+    border: 2px solid white;
+    width: 30%;
+    margin: 60px auto;
+    border-radius: 10px;
+    padding: 1rem 0rem;
+    position: relative;
+    text-align: center;
+}
+
+.score{
+    position: absolute;
+    background-color: gold;
+    color: rgb(28, 28, 59);
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+#Computer{
+    right: -8%;
+    top: 30%;
+}
+
+#Player{
+    left: -7%;
+    top: 30%;
+    padding: 3px 20px;
+}
+
+.Result{
+    text-align: center;
+}
+
+.Choices{
+    display: flex;
+}
+
+.Choice{
+    width: 10%;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 500px;
+    background-color: lightgray;
+    padding: 1.5rem 0rem;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    transition: all 0.5s ease-in-out;
+}
+
+.Choice:hover{
+    border: 3px solid grey;
+    cursor: pointer;
+    background-color: rgb(8, 8, 17);
+}
+
+.Choice > img{
+    width: 50%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50%;
+}
+#Rock{
+    margin-left: 480px;
+    margin-right: 0px;
+}
+#Paper{
+    margin-left: 50px;
+}
+#Scissor{
+    margin-left:50px;
+}
+.Message{
+    text-align: center;
+}

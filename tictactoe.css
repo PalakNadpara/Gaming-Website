@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 19, 11);
+    height: 100vh;
+    margin: 0;
+}
+
+#tic-tac-toe-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    text-align: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    background-color: rgb(0, 34, 20);
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+#reset-button {
+    margin-top: 290px;
+    margin-left: 50px;
+    font-size: 18px;
+    background-color: lightgray;
+}
+
+#you-label {
+    color: #00cc99; 
+}
+
+#cpu-label {
+    color: orange; 
+}
+
+#you-score {
+    color: #00cc99; 
+}
+
+#cpu-score-value {
+    color: orange; 
+}
+
+#tie-label {
+    color: rgb(0, 229, 255); 
+}
+
+#tie-score {
+    color: rgb(0, 229, 255) 
+}
